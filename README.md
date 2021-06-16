@@ -1,6 +1,4 @@
 
-https://user-images.githubusercontent.com/11750755/122221595-60688b80-ceec-11eb-8332-15d723a68c88.mp4
-
 # Node-RED nodes for IBM Maximo Visual Inspection (MVI)
 
   [Maximo Visual Inspection (MVI)](https://www.ibm.com/products/maximo/remote-monitoring#section-heading-4) makes computer vision with deep learning more accessible to business users. MVI includes an intuitive toolset that empowers subject matter experts to label, train, and deploy deep learning vision models, without coding or deep learning expertise. 
@@ -8,6 +6,14 @@ https://user-images.githubusercontent.com/11750755/122221595-60688b80-ceec-11eb-
   node-red-contrib-ibm-mvi  is a [Node-RED](https://nodered.org/) module for IBM Maximo Visual Inspection (MVI). This repo provides nodes that make MVI easy to use. Also a flow of Node-RED is easy to understand what the flow does because of its graphical flow  representation.
 
 
+## Demo movies
+- OK
+
+![ok](https://user-images.githubusercontent.com/11750755/122221729-87bf5880-ceec-11eb-820b-87344ebb8a37.mp4)
+
+- NG
+
+![NG](https://user-images.githubusercontent.com/11750755/122222032-d40a9880-ceec-11eb-8429-294413885682.mp4)
 
 ----
 
@@ -174,17 +180,12 @@ https://user-images.githubusercontent.com/11750755/122221595-60688b80-ceec-11eb-
 
 #### OK
 
-<video src="https://user-images.githubusercontent.com/11750755/122221729-87bf5880-ceec-11eb-820b-87344ebb8a37.mp4"></video>
-
-https://user-images.githubusercontent.com/11750755/122221729-87bf5880-ceec-11eb-820b-87344ebb8a37.mp4
-
 ![ok](https://user-images.githubusercontent.com/11750755/122221729-87bf5880-ceec-11eb-820b-87344ebb8a37.mp4)
-
-
 
 #### NG
 
-![NG](README.assets/movies/inspection.NG.mp4)
+![NG](https://user-images.githubusercontent.com/11750755/122222032-d40a9880-ceec-11eb-8429-294413885682.mp4)
+
 
 Author
 ------
