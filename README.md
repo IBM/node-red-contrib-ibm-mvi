@@ -25,12 +25,18 @@
 
 1. Initialize local npm environment.
     ```sh
+    $ mkdir workdir && cd workdir
     $ npm init -y
     ```
     
-2. Install Node-RED, Email node, and IBM MVI nodes
+2. Install Node-RED, Email node
     ```sh
     $ npm install node-red
+
+3. Download tar.gz file from [Releases](https://github.com/IBM/node-red-contrib-ibm-mvi/releases)
+4. Install tar.gz file
+
+    ```sh
     $ npm install node-red-contrib-ibm-mvi-1.0.0.tgz
     ```
 
