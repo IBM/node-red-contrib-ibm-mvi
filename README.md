@@ -14,7 +14,8 @@
     * [Examples](#examples)
         + [Inspection with MVI server](#inspection-with-mvi-server)
         + [Inspection with MVI Edge server](#inspection-with-mvi-edge-server)
-        + [Custom inspection with MVI edge server (Cloud Festa 2021)](#custom-inspection-with-mvi-edge-server--cloud-festa-2021-)
+        + [Custom inspection with MVI edge server](#custom-inspection-with-mvi-edge-server)
+            + [Demo movies](#demo-movies)
     * [Author](#author)
     * [License](#license)
 
@@ -110,7 +111,7 @@
 
 
 
-### Custom inspection with MVI edge server (Cloud Festa 2021)
+### Custom inspection with MVI edge server
 
 1. install email node & restart Node-RED
     ```sh
@@ -166,8 +167,15 @@
     
     <img src="README.assets/image-20210523113303257.png" alt="image-20210523113303257" style="zoom:80%;" />
 
+### Demo movies
 
+#### OK
 
+<video src="README.assets/movies/inspection_OK.mp4"></video>
+
+#### NG
+
+![NG](README.assets/movies/inspection.NG.mp4)
 
 Author
 ------
