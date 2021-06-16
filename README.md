@@ -1,3 +1,6 @@
+
+https://user-images.githubusercontent.com/11750755/122221595-60688b80-ceec-11eb-8332-15d723a68c88.mp4
+
 # Node-RED nodes for IBM Maximo Visual Inspection (MVI)
 
   [Maximo Visual Inspection (MVI)](https://www.ibm.com/products/maximo/remote-monitoring#section-heading-4) makes computer vision with deep learning more accessible to business users. MVI includes an intuitive toolset that empowers subject matter experts to label, train, and deploy deep learning vision models, without coding or deep learning expertise. 
@@ -171,7 +174,13 @@
 
 #### OK
 
-<video src="README.assets/movies/inspection_OK.mp4"></video>
+<video src="https://user-images.githubusercontent.com/11750755/122221729-87bf5880-ceec-11eb-820b-87344ebb8a37.mp4"></video>
+
+https://user-images.githubusercontent.com/11750755/122221729-87bf5880-ceec-11eb-820b-87344ebb8a37.mp4
+
+![ok](https://user-images.githubusercontent.com/11750755/122221729-87bf5880-ceec-11eb-820b-87344ebb8a37.mp4)
+
+
 
 #### NG
 
