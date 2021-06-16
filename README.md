@@ -9,11 +9,11 @@
 ## Demo movies
 - OK
 
-![ok](https://user-images.githubusercontent.com/11750755/122221729-87bf5880-ceec-11eb-820b-87344ebb8a37.mp4)
+https://user-images.githubusercontent.com/11750755/122221729-87bf5880-ceec-11eb-820b-87344ebb8a37.mp4
 
 - NG
 
-![NG](https://user-images.githubusercontent.com/11750755/122222032-d40a9880-ceec-11eb-8429-294413885682.mp4)
+https://user-images.githubusercontent.com/11750755/122222032-d40a9880-ceec-11eb-8429-294413885682.mp4
 
 ----
 
@@ -180,11 +180,11 @@
 
 #### OK
 
-![ok](https://user-images.githubusercontent.com/11750755/122221729-87bf5880-ceec-11eb-820b-87344ebb8a37.mp4)
+https://user-images.githubusercontent.com/11750755/122221729-87bf5880-ceec-11eb-820b-87344ebb8a37.mp4
 
 #### NG
 
-![NG](https://user-images.githubusercontent.com/11750755/122222032-d40a9880-ceec-11eb-8429-294413885682.mp4)
+https://user-images.githubusercontent.com/11750755/122222032-d40a9880-ceec-11eb-8429-294413885682.mp4
 
 
 Author
