@@ -1,0 +1,43 @@
+<!--
+=================================================================
+node-red-contrib-ibm-mvi
+
+Copyright (c) 2021 Takahide Nogayama
+
+This software is released under the MIT License.
+http://opensource.org/licenses/mit-license.php
+=================================================================
+-->
+
+<script type="text/javascript">
+    RED.nodes.registerType('ibm-mvi-server-infer', {
+        category: 'IBM MVI',
+        color: '#c9deff',
+        defaults: {
+            name: { value: "" },
+            mviUriToInfer: { value: "" }, // https://nodered.jp/docs/creating-nodes/properties
+        },
+        inputs: 1,
+        outputs: 1,
+        icon: "ibm_mvi_logo_white.png",
+        paletteLabel: "Infer with MVI server",
+        label: function () {
+            return this.name || "Infer with MVI server";
+        }
+    });
+</script>
+
+<script type="text/html" data-template-name="ibm-mvi-server-infer">
+    <div class="form-row">
+        <label for="node-input-name"><i class="fa fa-tag"></i> Name</label>
+        <input type="text" id="node-input-name" placeholder="Name">
+    </div>
+    <div class="form-row">
+        <label for="node-input-mviUriToInfer"><i class="fa fa-tag"></i> URL to infer </label>
+        <input type="text" id="node-input-mviUriToInfer" placeholder="https://your.maximo.com/path/to/mvi/api/dlapis/01234567-0123-0123-0123-0123456789AB">
+    </div>
+</script>
+
+<script type="text/html" data-help-name="ibm-mvi-server-infer">
+    <p>A node that makes inferences in cooperation with the MVI server</p>
+</script>

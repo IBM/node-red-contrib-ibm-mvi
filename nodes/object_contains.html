@@ -1,0 +1,69 @@
+<!--
+=================================================================
+node-red-contrib-ibm-mvi
+
+Copyright (c) 2021 Takahide Nogayama
+
+This software is released under the MIT License.
+http://opensource.org/licenses/mit-license.php
+=================================================================
+-->
+
+<script type="text/javascript">
+    RED.nodes.registerType('ibm-mvi-object-contains', {
+        category: 'IBM MVI',
+        color: '#c9deff',
+        defaults: {
+            name: { value: "" },
+            objectLabel: { value: "" }, // https://nodered.jp/docs/creating-nodes/properties
+            negation: { value: false } // https://nodered.jp/docs/creating-nodes/properties
+        },
+        inputs: 1,
+
+        outputs: 2, // 複数出力　https://nodered.jp/docs/creating-nodes/node-js#%E8%A4%87%E6%95%B0%E5%87%BA%E5%8A%9B
+        outputLabels: ["True", "False"],
+
+        icon: "switch.png",
+        paletteLabel: "contains object",
+        label: function () {
+            // https://nodered.jp/docs/creating-nodes/properties
+            if (this.name) {
+                return this.name;
+            } else {
+                if (!this.negation) {
+                    if (this.objectLabel) {
+                        return `contains ${this.objectLabel}`;
+                    } else {
+                        return `contains object`;
+                    }
+                } else {
+                    if (this.objectLabel) {
+                        return `does not contain ${this.objectLabel}`;
+                    } else {
+                        return `does not contain object`;
+                    }
+                }
+            }
+        }
+    });
+</script>
+
+<script type="text/html" data-template-name="ibm-mvi-object-contains">
+    <div class="form-row">
+        <label for="node-input-name"><i class="fa fa-tag"></i> Name</label>
+        <input type="text" id="node-input-name" placeholder="Name"></input>
+    </div>
+    <br/>
+    <div class="form-row">
+        <label for="node-input-object"><i class="fa fa-tag"></i> object label</label>
+        <input type="text" id="node-input-objectLabel" ></input>
+    </div>
+    <div class="form-row">
+        <label for="node-input-negation"><i class="fa fa-tag"></i> Not</label>
+        <input type="checkbox" id="node-input-negation" arign="left"></input>
+    </div>
+</script>
+
+<script type="text/html" data-help-name="ibm-mvi-object-contains">
+    <p>A switch node for branching depending on whether an object contains other objects</p>
+</script>

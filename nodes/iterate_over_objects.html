@@ -1,0 +1,55 @@
+<!--
+=================================================================
+node-red-contrib-ibm-mvi
+
+Copyright (c) 2021 Takahide Nogayama
+
+This software is released under the MIT License.
+http://opensource.org/licenses/mit-license.php
+=================================================================
+-->
+
+<script type="text/javascript">
+    RED.nodes.registerType('ibm-mvi-iterate-over-objects', {
+        category: 'IBM MVI',
+        color: '#c9deff',
+        defaults: {
+            name: { value: "" },
+            objectLabel: { value: "" } // https://nodered.jp/docs/creating-nodes/properties
+        },
+        inputs: 1,
+
+        outputs: 2, // 複数出力　https://nodered.jp/docs/creating-nodes/node-js#%E8%A4%87%E6%95%B0%E5%87%BA%E5%8A%9B
+        outputLabels: ["element in iteration", "No target element"],
+
+        icon: "split.svg",
+        paletteLabel: "Iterate over objects",
+        label: function () {
+            // https://nodered.jp/docs/creating-nodes/properties
+            if (this.name) {
+                return this.name;
+            } else {
+                if (this.objectLabel) {
+                    return `Iterate over ${this.objectLabel}s`;
+                } else {
+                    return "Iterate over objects";
+                }
+            }
+        }
+    });
+</script>
+
+<script type="text/html" data-template-name="ibm-mvi-iterate-over-objects">
+    <div class="form-row">
+        <label for="node-input-name"><i class="fa fa-tag"></i> Name</label>
+        <input type="text" id="node-input-name" placeholder="Name">
+    </div>
+    <div class="form-row">
+        <label for="node-input-objectLabel"><i class="fa fa-tag"></i> Object label</label>
+        <input type="text" id="node-input-objectLabel">
+    </div>
+</script>
+
+<script type="text/html" data-help-name="ibm-mvi-iterate-over-objects">
+    <p>A split node to iterate over each detected object which specified by config</p>
+</script>
