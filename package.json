@@ -11,7 +11,11 @@
     "url": "git+https://github.com/IBM/node-red-contrib-ibm-mvi.git"
   },
   "keywords": [
-    "node-red"
+    "node-red",
+    "ibm",
+    "maximo",
+    "visual",
+    "inspection"
   ],
   "author": "Takahide Nogayama",
   "license": "MIT",

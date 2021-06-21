@@ -7,16 +7,16 @@
 
 
 ## Demo movies
+
 - OK
+    https://user-images.githubusercontent.com/11750755/122221729-87bf5880-ceec-11eb-820b-87344ebb8a37.mp4
 
-https://user-images.githubusercontent.com/11750755/122221729-87bf5880-ceec-11eb-820b-87344ebb8a37.mp4
-
-- NG (Play with unmute mode🔊. Node-RED sounds beep when human has a bag.)
-
-https://user-images.githubusercontent.com/11750755/122222032-d40a9880-ceec-11eb-8429-294413885682.mp4
+- NG (Please play with unmute mode🔊. Node-RED sounds beep when human has a bag.)
+    https://user-images.githubusercontent.com/11750755/122222032-d40a9880-ceec-11eb-8429-294413885682.mp4
 
 ----
 
+**Table of Contents**
 - [Node-RED nodes for IBM Maximo Visual Inspection (MVI)](#node-red-nodes-for-ibm-maximo-visual-inspection--mvi-)
     * [Setup](#setup)
     * [Usage](#usage)
@@ -34,18 +34,22 @@ https://user-images.githubusercontent.com/11750755/122222032-d40a9880-ceec-11eb-
 ## Setup
 
 1. Initialize local npm environment.
+   
     ```sh
     $ mkdir workdir && cd workdir
     $ npm init -y
     ```
     
 2. Install Node-RED, Email node
+   
     ```sh
     $ npm install node-red
-
+    ```
+    
 3. Download tar.gz file from [Releases](https://github.com/IBM/node-red-contrib-ibm-mvi/releases)
-4. Install tar.gz file
 
+4. Install tar.gz file
+   
     ```sh
     $ npm install node-red-contrib-ibm-mvi-1.0.0.tgz
     ```
