@@ -1,7 +1,7 @@
 // =================================================================
 // node-red-contrib-ibm-mvi
 //
-// Copyright (c) 2021 Takahide Nogayama
+// Copyright (c) 2021 International Business Machines
 //
 // This software is released under the MIT License.
 // http://opensource.org/licenses/mit-license.php
